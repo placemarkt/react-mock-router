@@ -27,7 +27,6 @@ export default class MockRouter extends React.Component {
 
   render() {
     return (
-      // only allow MockRouter to render one child. Otherwise, throws error.
       React.Children.only(this.props.children)
     );
   }

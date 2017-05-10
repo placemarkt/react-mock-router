@@ -6,8 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git+https://github.com/rkoeze/react-mock-router.git",
+    "url": 
+  },
   "author": "Robert Koeze <rkoeze@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkoeze/react-mock-router/issues"
+  },
   "dependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
