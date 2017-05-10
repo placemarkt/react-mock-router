@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git+https://github.com/rkoeze/react-mock-router.git",
-    "url": 
+    "type": "git",
+    "url": "git+https://github.com/rkoeze/react-mock-router.git"
   },
   "author": "Robert Koeze <rkoeze@gmail.com>",
   "license": "MIT",
