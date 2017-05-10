@@ -2,7 +2,7 @@
   "name": "react-mock-router",
   "version": "1.0.0",
   "description": "A mock router for testing React components that use React Router v. 4",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
