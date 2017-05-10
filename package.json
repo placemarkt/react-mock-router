@@ -15,7 +15,8 @@
   "bugs": {
     "url": "https://github.com/rkoeze/react-mock-router/issues"
   },
-  "dependencies": {
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
