@@ -1,8 +1,8 @@
 {
   "name": "react-mock-router",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A mock router for testing React components that use React Router v. 4",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "rimraf lib && babel src --out-dir lib"
