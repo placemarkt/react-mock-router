@@ -14,7 +14,7 @@ React Mock Router takes mocked router props as arguments, passing them to
 children components.
 
 ```jsx
-import MockRouter from 'mock-react-router';
+import MockRouter from 'react-mock-router';
 
 it('has a button that links to the todo edit page', () => {
 
@@ -54,7 +54,7 @@ in a router, you can do the following.
 
 
 ```jsx
-import MockRouter from 'mock-react-router';
+import MockRouter from 'react-mock-router';
 
 it('correctly defines the action when given a formType () => {
   
