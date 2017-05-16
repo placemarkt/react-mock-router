@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class MockRouter extends React.Component {
+export class MockRouter extends React.Component {
 
   getChildContext() {
     return (
