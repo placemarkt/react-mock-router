@@ -33,5 +33,5 @@ export default class MockRouter extends React.Component {
 }
 
 MockRouter.childContextTypes = {
-  router: PropTypes.object,
-}
+  router: PropTypes.object
+};

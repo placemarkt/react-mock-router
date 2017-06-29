@@ -46,11 +46,11 @@ it('has a button that links to the todo edit page', () => {
 });
 ```
 
-React Mock Router also provides the correct `context` for component
-being tested, so you won't recieve errors if they use React Router components
-like `Route` or `Link`. If you're testing a component that isn't considered
-route component (i.e. not rendered as part of a `Route`) but need to wrap it
-in a router, you can do the following.
+React Mock Router also provides the correct `context` for components
+being tested, so you won't recieve errors if those components use React Router
+components like `Route` or `Link`. If you're testing a component that isn't 
+considered a route component (i.e. not rendered as part of a `Route`) but need
+to wrap it in a router, you can do the following.
 
 
 ```jsx
