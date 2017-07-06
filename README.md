@@ -18,6 +18,7 @@ The `MockRouter` component can recieve any of the following arguments as props.
 * `createHref` - mocked function
 * `push` - mocked function
 * `replace` - mocked function
+
 ## Use
 
 React Mock Router takes mocked router props as arguments, passing them to
