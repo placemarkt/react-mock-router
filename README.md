@@ -8,6 +8,16 @@ Router's `MemoryRouter` and `StaticRouter`.
 
 `npm install react-mock-router --save-dev`
 
+## API
+
+The `MockRouter` component can recieve any of the following arguments as props.
+
+* `location` -  string
+* `params` - object
+* `path` - string
+* `createHref` - mocked function
+* `push` - mocked function
+* `replace` - mocked function
 ## Use
 
 React Mock Router takes mocked router props as arguments, passing them to
@@ -44,7 +54,6 @@ it('has a button that links to the todo edit page', () => {
   expect(push).toBeCalledWith(`/todo/${todo.id}/edit`);
 
 });
-```
 
 React Mock Router also provides the correct `context` for components
 being tested, so you won't recieve errors if those components use React Router
