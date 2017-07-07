@@ -12,12 +12,12 @@ Router's `MemoryRouter` and `StaticRouter`.
 
 The `MockRouter` component can recieve any of the following arguments as props.
 
-* `location` -  string
-* `params` - object
-* `path` - string
-* `createHref` - mocked function
-* `push` - mocked function
-* `replace` - mocked function
+* `location`
+* `params`
+* `path`
+* `createHref`
+* `push`
+* `replace`
 
 ## Use
 
