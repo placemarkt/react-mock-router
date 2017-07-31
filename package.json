@@ -1,6 +1,6 @@
 {
   "name": "react-mock-router",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A mock router for testing React components that use React Router v. 4",
   "main": "lib/index.js",
   "scripts": {
