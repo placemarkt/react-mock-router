@@ -1,28 +1,30 @@
+
 import React from 'react';
 import PropTypes from 'prop-types';
+
+const noop = () => {};
 
 export default class MockRouter extends React.Component {
 
   getChildContext() {
-    return (
-      {
-        router: {
-          route: {
-            location: this.props.location || "",
-            match: {
-              params: this.props.params || {},
-              path: this.props.path || ""
-            }
-          },
-          history: {
-            path: this.props.path || "",
-            createHref: function() {},
-            push: this.props.push || function() {},
-            replace: this.props.replace || function() {}
+    return ({
+      router: {
+        route: {
+          location: this.props.location,
+          match: {
+            url: this.props.url,
+            params: this.props.params,
+            path: this.props.path
           }
+        },
+        history: {
+          path: this.props.path,
+          createHref: this.props.createHref,
+          push: this.props.push,
+          replace: this.props.replace
         }
       }
-    );
+    });
   }
 
   render() {
@@ -35,3 +37,13 @@ export default class MockRouter extends React.Component {
 MockRouter.childContextTypes = {
   router: PropTypes.object
 };
+
+MockRouter.defaultProps = {
+  url: '',
+  location: '',
+  params: {},
+  path: '',
+  createHref: noop,
+  push: noop,
+  replace: noop
+}
