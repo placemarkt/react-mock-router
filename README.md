@@ -77,3 +77,7 @@ it('correctly defines the action when given a formType () => {
   expect(todoFormWrapper.props().action).toBeDefined();
 });
 ```
+
+### License
+
+This project is released under the [MIT license](./LICENSE.md).
