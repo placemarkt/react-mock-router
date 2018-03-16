@@ -66,7 +66,7 @@ to wrap it in a router, you can do the following.
 ```jsx
 import MockRouter from 'react-mock-router';
 
-it('correctly defines the action when given a formType () => {
+it('correctly defines the action when given a formType', () => {
   
   const todoFormWrapper = mount(
     <MockRouter>
