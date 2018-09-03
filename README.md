@@ -10,7 +10,7 @@ Router's `MemoryRouter` and `StaticRouter`.
 
 ## API
 
-The `MockRouter` component can recieve any of the following arguments as props.
+The `MockRouter` component can receive any of the following arguments as props.
 
 * `location`
 * `params`
