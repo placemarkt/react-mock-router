@@ -12,6 +12,7 @@ Router's `MemoryRouter` and `StaticRouter`.
 
 The `MockRouter` component can receive any of the following arguments as props.
 
+* `action` Defaults to `PUSH`
 * `location`
 * `params`
 * `path`
