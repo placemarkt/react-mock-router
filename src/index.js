@@ -18,6 +18,7 @@ export default class MockRouter extends React.Component {
           }
         },
         history: {
+          action: this.props.action,
           path: this.props.path,
           createHref: this.props.createHref,
           push: this.props.push,
@@ -39,6 +40,7 @@ MockRouter.childContextTypes = {
 };
 
 MockRouter.defaultProps = {
+  action: 'PUSH',
   url: '',
   location: '',
   params: {},

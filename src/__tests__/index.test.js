@@ -53,6 +53,7 @@ test('it should not throw a propType validation error', () => {
 
 test('it should pass router props to component', () => {
 	const component = getComponentWithRouter({
+		action: 'POP',
 		url: '/foobar',
 		location: '/bin/baz',
 		params: {foo: 'bar'},
@@ -63,6 +64,7 @@ test('it should pass router props to component', () => {
 	});
 	expect(component.find(MockComponent).props()).toEqual({
 		"history": {
+			action: 'POP',
 			"createHref": createHrefStub,
 			"path": "/wat",
 			"push": pushStub,
