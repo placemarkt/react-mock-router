@@ -40,7 +40,7 @@ MockRouter.childContextTypes = {
 
 MockRouter.defaultProps = {
   url: '',
-  location: '',
+  location: {},
   params: {},
   path: '',
   createHref: noop,
